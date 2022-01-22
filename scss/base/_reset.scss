@@ -1,3 +1,5 @@
+@use "../abstracts/index" as *;
+
 *,
 *::before,
 *::after {
@@ -19,4 +21,5 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: $font-primary;
 }

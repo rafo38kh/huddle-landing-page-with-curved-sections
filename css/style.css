@@ -19,6 +19,29 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.button {
+  color: #ff52bf;
+  background: transparent;
+  border: 0.1rem solid #ff52bf;
+  border-radius: 5rem;
+  padding: 0.5rem;
+  width: 8rem;
+  font-size: 1rem;
+}
+.huddle__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 88%;
+  max-width: 110rem;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.huddle__logo {
+  width: 8rem;
 }
 
 /*# sourceMappingURL=style.css.map */

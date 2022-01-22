@@ -1,8 +1,18 @@
+@use "../abstracts/index" as *;
+
 .huddle {
   &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88%;
+    max-width: 110rem;
+    margin: 0 auto;
+    padding: 2rem 0;
   }
 
   &__logo {
+    width: 8rem;
     &--header {
     }
 

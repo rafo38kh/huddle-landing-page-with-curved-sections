@@ -1,4 +1,14 @@
+@use "../abstracts/index" as *;
+
 .button {
+  color: $color-Pink;
+  background: transparent;
+  border: 0.1rem solid $color-Pink;
+  border-radius: 5rem;
+  padding: 0.5rem;
+  width: 8rem;
+  font-size: 1rem;
+
   &__header {
   }
 
