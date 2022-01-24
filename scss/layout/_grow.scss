@@ -1,5 +1,8 @@
+@use "../abstracts/index" as *;
+
 .grow {
   &__section {
+    background-color: $color-veryPaleBlue;
   }
 
   &__picture {

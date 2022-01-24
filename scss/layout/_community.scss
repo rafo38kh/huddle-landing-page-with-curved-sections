@@ -1,19 +1,51 @@
+@use "../abstracts/index" as *;
 .community {
   &__section {
   }
 
   &__picture {
+    padding: 3.5rem;
+    margin-top: 8rem;
   }
 
   &__forms {
   }
 
-  &__form-wrapper {
+  &__form {
+    max-width: 18rem;
+    margin: 12rem auto 0;
   }
 
   &__number {
+    position: relative;
+    font-size: 6rem;
+    font-weight: 700;
+
+    &::before {
+      position: absolute;
+      top: -2rem;
+      left: 2rem;
+      width: 2rem;
+      height: 2rem;
+    }
+
+    &--communities {
+      &::before {
+        content: url("../../images/icon-communities.svg");
+      }
+    }
+
+    &--messages {
+      font-size: 5.3rem;
+
+      &::before {
+        content: url("../../images/icon-messages.svg");
+      }
+    }
   }
 
   &__text {
+    font-size: 1.4rem;
+    opacity: 0.6;
   }
 }

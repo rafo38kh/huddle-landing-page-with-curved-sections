@@ -7,12 +7,12 @@
     align-items: center;
     width: 88%;
     max-width: 110rem;
-    margin: 0 auto;
+    margin: 0 auto 10rem;
     padding: 2rem 0;
   }
 
   &__logo {
-    width: 8rem;
+    width: 9rem;
     &--header {
     }
 
@@ -24,6 +24,9 @@
   }
 
   &__title {
+    margin-bottom: 2rem;
+    padding: 0 3rem;
+    font-family: $font-secondary;
     &--primary {
     }
 
@@ -35,6 +38,10 @@
   }
 
   &__subtitle {
+    margin-bottom: 4rem;
+    font-size: 1.4rem;
+    padding: 0 3rem;
+
     &--primary {
     }
 

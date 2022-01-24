@@ -1,9 +1,9 @@
 @use "../abstracts/index" as *;
 
 .button {
-  color: $color-Pink;
+  color: $color-lightPink;
   background: transparent;
-  border: 0.1rem solid $color-Pink;
+  border: 0.1rem solid $color-lightPink;
   border-radius: 5rem;
   padding: 0.5rem;
   width: 8rem;
@@ -13,6 +13,12 @@
   }
 
   &__community {
+    color: $color-veryPaleBlue;
+    background-color: $color-Pink;
+    border: 0.1rem solid $color-Pink;
+    width: 20rem;
+    padding: 1rem;
+    font-size: 1.2rem;
   }
 
   &__ask {
