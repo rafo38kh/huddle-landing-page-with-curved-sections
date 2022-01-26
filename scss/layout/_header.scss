@@ -12,8 +12,12 @@
   }
 
   &__logo {
-    width: 9rem;
     &--header {
+      width: 9rem;
+
+      @media (min-width: 810px) {
+        width: 19rem;
+      }
     }
 
     &--footer {
@@ -52,9 +56,12 @@
 
     &--secondary {
       line-height: 1.5;
+      max-width: 50rem;
+      margin: 0 auto 4rem auto;
 
       @media (min-width: 810px) {
         margin: unset;
+        max-width: unset;
       }
     }
 

@@ -9,6 +9,12 @@
   width: 8rem;
   font-size: 1rem;
 
+  @media (min-width: 810px) {
+    padding: 0.8rem;
+    width: 14rem;
+    font-size: 1.6rem;
+  }
+
   &__header {
   }
 
@@ -35,8 +41,8 @@
     background-color: $color-Pink;
     border: 0.1rem solid $color-Pink;
     width: 15rem;
-    padding: 1rem;
-    font-size: 1.4rem;
+    padding: 1.5rem;
+    font-size: 1.6rem;
     border-radius: 0.5rem;
   }
 }

@@ -9,14 +9,25 @@
   }
 
   &__forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    margin: 10rem 0 3rem 0;
+
     @media (min-width: 810px) {
-      display: flex;
+      flex-direction: row;
+      margin: 10rem 0;
     }
   }
 
   &__form {
     max-width: 18rem;
-    margin: 12rem auto 0;
+    // margin: 12rem auto 0;
+    @media (min-width: 810px) {
+      margin: unset;
+    }
   }
 
   &__number {

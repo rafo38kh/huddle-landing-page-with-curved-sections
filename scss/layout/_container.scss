@@ -43,5 +43,9 @@
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 5rem;
     padding: 5rem 3rem;
+
+    @media (min-width: 810px) {
+      padding: 10rem 3rem;
+    }
   }
 }

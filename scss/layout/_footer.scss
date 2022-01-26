@@ -7,6 +7,10 @@
 
   &__newsletter-wrapper {
     margin-bottom: 10rem;
+
+    @media (min-width: 810px) {
+      margin: unset;
+    }
   }
 
   &__newsletter {
@@ -18,6 +22,11 @@
     font-size: 1.4rem;
     margin: 2rem 0;
     max-width: 30rem;
+    line-height: 1.8;
+
+    @media (min-width: 810px) {
+      max-width: 32rem;
+    }
   }
 
   &__info {
@@ -28,16 +37,36 @@
     margin: 2rem 0 4rem;
     max-width: 30rem;
     line-height: 1.8;
+
+    @media (min-width: 810px) {
+      margin: 1.5rem 0 2rem;
+    }
   }
 
   &__phone {
+    position: relative;
     margin-bottom: 1rem;
+    padding-left: 3rem;
     font-size: 1.4rem;
+
+    &::before {
+      position: absolute;
+      content: url("../../images/icon-phone.svg");
+      left: 0;
+    }
   }
 
   &__email {
+    position: relative;
     margin-bottom: 1rem;
+    padding-left: 3rem;
     font-size: 1.4rem;
+
+    &::before {
+      position: absolute;
+      content: url("../../images/icon-email.svg");
+      left: 0;
+    }
   }
 
   &__social-wrapper {
