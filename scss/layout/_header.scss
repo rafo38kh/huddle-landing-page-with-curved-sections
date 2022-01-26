@@ -17,6 +17,8 @@
     }
 
     &--footer {
+      width: 19rem;
+      filter: brightness(0) invert(100%);
     }
   }
 
@@ -31,9 +33,12 @@
     }
 
     &--secondary {
+      margin-bottom: 1rem;
+      font-size: 2rem;
     }
 
     &--tertiary {
+      font-size: 2.4rem;
     }
   }
 
@@ -46,6 +51,11 @@
     }
 
     &--secondary {
+      line-height: 1.5;
+
+      @media (min-width: 810px) {
+        margin: unset;
+      }
     }
 
     &--tertiary {

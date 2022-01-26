@@ -10,6 +10,7 @@ img,
 picture {
   max-width: 100%;
   display: block;
+  width: 100%;
 }
 
 html {
@@ -41,6 +42,45 @@ body {
   padding: 1rem;
   font-size: 1.2rem;
 }
+.button__ask {
+  color: #f5faff;
+  background-color: #ff52bf;
+  border: 0.1rem solid #ff52bf;
+  width: 20rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+.button__footer {
+  color: #f5faff;
+  background-color: #ff52bf;
+  border: 0.1rem solid #ff52bf;
+  width: 15rem;
+  padding: 1rem;
+  font-size: 1.4rem;
+  border-radius: 0.5rem;
+}
+
+.footer__form {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  max-width: 32rem;
+}
+.footer__form-wrapper {
+  max-width: 32rem;
+  width: 100%;
+}
+.footer__input {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid transparent;
+}
+.footer__error {
+  visibility: hidden;
+  opacity: 0;
+}
+
 .huddle__header {
   display: flex;
   justify-content: space-between;
@@ -53,19 +93,43 @@ body {
 .huddle__logo {
   width: 9rem;
 }
+.huddle__logo--footer {
+  width: 19rem;
+  filter: brightness(0) invert(100%);
+}
 .huddle__title {
   margin-bottom: 2rem;
   padding: 0 3rem;
   font-family: "Poppins", sans-serif;
+}
+.huddle__title--secondary {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+.huddle__title--tertiary {
+  font-size: 2.4rem;
 }
 .huddle__subtitle {
   margin-bottom: 4rem;
   font-size: 1.4rem;
   padding: 0 3rem;
 }
+.huddle__subtitle--secondary {
+  line-height: 1.5;
+}
+@media (min-width: 810px) {
+  .huddle__subtitle--secondary {
+    margin: unset;
+  }
+}
 .community__picture {
   padding: 3.5rem;
   margin-top: 8rem;
+}
+@media (min-width: 810px) {
+  .community__forms {
+    display: flex;
+  }
 }
 .community__form {
   max-width: 18rem;
@@ -99,6 +163,131 @@ body {
 
 .grow__section {
   background-color: #f5faff;
+}
+.grow__picture {
+  width: 70%;
+  margin: 0rem auto 7rem;
+}
+@media (min-width: 810px) {
+  .grow__picture {
+    margin: unset;
+    width: 100%;
+  }
+}
+.flowing__picture {
+  width: 70%;
+  margin: 0rem auto 7rem;
+}
+@media (min-width: 810px) {
+  .flowing__picture {
+    margin: unset;
+    width: 100%;
+  }
+}
+.users__section {
+  background-color: #f5faff;
+}
+.users__picture {
+  width: 70%;
+  margin: 0rem auto 7rem;
+}
+@media (min-width: 810px) {
+  .users__picture {
+    margin: unset;
+    width: 100%;
+  }
+}
+.ask__section {
+  padding: 7rem 0 25rem 0;
+}
+
+.footer {
+  background-color: #00252e;
+  color: #f5faff;
+  text-align: left;
+}
+.footer__newsletter-wrapper {
+  margin-bottom: 10rem;
+}
+.footer__newsletter {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.footer__text {
+  font-size: 1.4rem;
+  margin: 2rem 0;
+  max-width: 30rem;
+}
+.footer__location {
+  font-size: 1.4rem;
+  margin: 2rem 0 4rem;
+  max-width: 30rem;
+  line-height: 1.8;
+}
+.footer__phone {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+.footer__email {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+.footer__social-wrapper {
+  margin-top: 5rem;
+}
+.footer__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.7rem;
+}
+.footer__link svg {
+  fill: #f5faff;
+}
+
+.container__grow {
+  padding: 9rem 0;
+}
+@media (min-width: 810px) {
+  .container__grow {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    padding: 9rem 5rem;
+  }
+}
+.container__flowing {
+  padding: 9rem 0;
+}
+@media (min-width: 810px) {
+  .container__flowing {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    padding: 9rem 5rem;
+  }
+}
+.container__users {
+  padding: 9rem 0;
+}
+@media (min-width: 810px) {
+  .container__users {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    padding: 9rem 5rem;
+  }
+}
+.container__footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 5rem;
+  padding: 5rem 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */

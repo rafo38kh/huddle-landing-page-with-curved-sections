@@ -1,35 +1,64 @@
+@use "../abstracts/index" as *;
+
 .footer {
+  background-color: $color-veryDarkCyan;
+  color: $color-veryPaleBlue;
+  text-align: left;
+
   &__newsletter-wrapper {
+    margin-bottom: 10rem;
   }
 
   &__newsletter {
+    text-transform: uppercase;
+    font-size: 2rem;
   }
 
   &__text {
+    font-size: 1.4rem;
+    margin: 2rem 0;
+    max-width: 30rem;
   }
 
   &__info {
   }
 
   &__location {
+    font-size: 1.4rem;
+    margin: 2rem 0 4rem;
+    max-width: 30rem;
+    line-height: 1.8;
   }
 
   &__phone {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
   }
 
   &__email {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
   }
 
   &__social-wrapper {
+    margin-top: 5rem;
   }
 
   &__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
   }
 
   &__item {
   }
 
   &__link {
+  }
+
+  &__link svg {
+    fill: $color-veryPaleBlue;
   }
 }
 

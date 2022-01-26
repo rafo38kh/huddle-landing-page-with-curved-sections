@@ -1,8 +1,17 @@
+@use "../abstracts/index" as *;
+
 .flowing {
   &__section {
   }
 
   &__picture {
+    width: 70%;
+    margin: 0rem auto 7rem;
+
+    @media (min-width: 810px) {
+      margin: unset;
+      width: 100%;
+    }
   }
 
   &__wrapper {

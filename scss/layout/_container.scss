@@ -1,13 +1,47 @@
 .container {
   &__grow {
+    padding: 9rem 0;
+
+    @media (min-width: 810px) {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      text-align: left;
+      justify-content: space-between;
+      padding: 9rem 5rem;
+    }
   }
 
   &__flowing {
+    padding: 9rem 0;
+
+    @media (min-width: 810px) {
+      display: flex;
+      //   flex-direction: row-reverse;
+      align-items: center;
+      text-align: left;
+      justify-content: space-between;
+      padding: 9rem 5rem;
+    }
   }
 
   &__users {
+    padding: 9rem 0;
+
+    @media (min-width: 810px) {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      text-align: left;
+      justify-content: space-between;
+      padding: 9rem 5rem;
+    }
   }
 
   &__footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 5rem;
+    padding: 5rem 3rem;
   }
 }

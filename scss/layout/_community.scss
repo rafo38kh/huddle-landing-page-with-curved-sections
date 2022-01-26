@@ -9,6 +9,9 @@
   }
 
   &__forms {
+    @media (min-width: 810px) {
+      display: flex;
+    }
   }
 
   &__form {
