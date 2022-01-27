@@ -9,6 +9,7 @@
     margin-bottom: 10rem;
 
     @media (min-width: 810px) {
+      grid-column: 2/3;
       margin: unset;
     }
   }
@@ -30,6 +31,7 @@
   }
 
   &__info {
+    // grid-column: 1/2;
   }
 
   &__location {

@@ -20,7 +20,6 @@ const checkInput = function (e) {
   } else {
     error.style.visibility = "hidden";
     error.style.opacity = "0";
-    input.style.outline = "0.2rem solid #00cca7";
     input.value = "";
   }
 };
@@ -29,5 +28,5 @@ form.addEventListener("submit", checkInput);
 
 window.onload = function () {
   input.value = "";
-  //   input.style.outline = "none";
+  input.style.outline = "none";
 };
