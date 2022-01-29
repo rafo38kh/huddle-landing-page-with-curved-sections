@@ -6,11 +6,22 @@
     flex-direction: column;
     align-items: end;
     max-width: 32rem;
+
+    @media (min-width: 1140px) {
+      flex-direction: row;
+      align-items: start;
+      justify-content: space-between;
+      max-width: 50rem;
+    }
   }
 
   &__form-wrapper {
     max-width: 32rem;
     width: 100%;
+
+    @media (min-width: 1140px) {
+      max-width: 30rem;
+    }
   }
 
   &__input {
