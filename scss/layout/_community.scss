@@ -59,7 +59,7 @@
 
     &--communities {
       &::before {
-        content: url("../../images/icon-communities.svg");
+        content: url("../images/icon-communities.svg");
         position: absolute;
         top: -10rem;
         left: 0rem;
@@ -72,7 +72,7 @@
       font-size: clamp(5.3rem, 7vw, 9.5rem);
 
       &::before {
-        content: url("../../images/icon-messages.svg");
+        content: url("../images/icon-messages.svg");
         position: absolute;
         top: -10rem;
         left: 0rem;

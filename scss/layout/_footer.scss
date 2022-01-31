@@ -65,7 +65,7 @@
     &--phone {
       &::before {
         position: absolute;
-        content: url("../../images/icon-phone.svg");
+        content: url("../images/icon-phone.svg");
         left: 0;
       }
     }
@@ -73,7 +73,7 @@
     &--email {
       &::before {
         position: absolute;
-        content: url("../../images/icon-email.svg");
+        content: url("../images/icon-email.svg");
         left: 0;
       }
     }

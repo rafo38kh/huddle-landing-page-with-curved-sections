@@ -269,7 +269,7 @@ body {
   }
 }
 .community__number--communities::before {
-  content: url("../../images/icon-communities.svg");
+  content: url("../images/icon-communities.svg");
   position: absolute;
   top: -10rem;
   left: 0rem;
@@ -278,7 +278,7 @@ body {
   font-size: clamp(5.3rem, 7vw, 9.5rem);
 }
 .community__number--messages::before {
-  content: url("../../images/icon-messages.svg");
+  content: url("../images/icon-messages.svg");
   position: absolute;
   top: -10rem;
   left: 0rem;
@@ -402,12 +402,12 @@ body {
 }
 .footer__contact--phone::before {
   position: absolute;
-  content: url("../../images/icon-phone.svg");
+  content: url("../images/icon-phone.svg");
   left: 0;
 }
 .footer__contact--email::before {
   position: absolute;
-  content: url("../../images/icon-email.svg");
+  content: url("../images/icon-email.svg");
   left: 0;
 }
 .footer__social-wrapper {

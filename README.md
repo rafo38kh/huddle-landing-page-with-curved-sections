@@ -26,7 +26,7 @@ This is a solution to the [Huddle Landing Page with Curved Sections Challenge on
 ### Links
 
 - Solution URL: []()
-- Live Site URL: []()
+- Live Site URL: [https://rafo38kh.github.io/huddle-landing-page-with-curved-sections/](https://rafo38kh.github.io/huddle-landing-page-with-curved-sections/)
 
 ## My process
 
@@ -35,6 +35,8 @@ This is a solution to the [Huddle Landing Page with Curved Sections Challenge on
 - Semantic HTML5 markup
 - SCSS custom properties
 - CSS Flexbox
+- CSS Grid
+- Vanilla JS
 - Mobile-first workflow
 
 ## Author
