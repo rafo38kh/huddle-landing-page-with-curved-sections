@@ -28,11 +28,12 @@ body {
 .button {
   color: #ff8fd8;
   background: transparent;
-  border: 0.2rem solid #ff8fd8;
+  border: 0.1rem solid #ff8fd8;
   border-radius: 5rem;
   padding: 0.6rem;
   width: 8rem;
   font-size: 1rem;
+  box-shadow: rgba(255, 82, 191, 0.2) 0px 0px 12px 0px;
   transition: all 0.3s;
 }
 .button:hover {
@@ -53,6 +54,7 @@ body {
   width: 20rem;
   padding: 1rem;
   font-size: 1.2rem;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 5px 5px 1px;
 }
 @media (min-width: 1140px) {
   .button__community {
@@ -70,6 +72,7 @@ body {
   width: 20rem;
   padding: 1rem;
   font-size: 1.2rem;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 5px 5px 1px;
 }
 @media (min-width: 1140px) {
   .button__ask {
@@ -88,6 +91,7 @@ body {
   padding: 1.5rem;
   font-size: 1.6rem;
   border-radius: 0.5rem;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 5px 5px 1px;
 }
 
 .footer__form {
@@ -259,6 +263,7 @@ body {
   }
 }
 .community__number {
+  position: relative;
   font-size: clamp(6rem, 7.5vw, 9.5rem);
   font-weight: 700;
 }
@@ -267,8 +272,21 @@ body {
     margin-bottom: 1rem;
   }
 }
+.community__number--communities::before {
+  content: url("../images/icon-communities.svg");
+  position: absolute;
+  top: -10rem;
+  left: 0rem;
+}
 .community__number--messages {
   font-size: clamp(5.3rem, 7vw, 9.5rem);
+}
+.community__number--messages::before {
+  content: url("../images/icon-messages.svg");
+  position: absolute;
+  top: -10rem;
+  left: 0rem;
+  width: 2rem;
 }
 .community__text {
   font-size: 1.4rem;

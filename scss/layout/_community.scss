@@ -41,7 +41,7 @@
   }
 
   &__number {
-    // position: relative;
+    position: relative;
     font-size: clamp(6rem, 7.5vw, 9.5rem);
     font-weight: 700;
 
@@ -50,24 +50,24 @@
     }
 
     &--communities {
-      //   &::before {
-      //     content: url("../images/icon-communities.svg");
-      //     position: absolute;
-      //     top: -10rem;
-      //     left: 0rem;
-      //   }
+      &::before {
+        content: url("../images/icon-communities.svg");
+        position: absolute;
+        top: -10rem;
+        left: 0rem;
+      }
     }
 
     &--messages {
       font-size: clamp(5.3rem, 7vw, 9.5rem);
 
-      //   &::before {
-      //     content: url("../images/icon-messages.svg");
-      //     position: absolute;
-      //     top: -10rem;
-      //     left: 0rem;
-      //     width: 2rem;
-      //   }
+      &::before {
+        content: url("../images/icon-messages.svg");
+        position: absolute;
+        top: -10rem;
+        left: 0rem;
+        width: 2rem;
+      }
     }
   }
 
