@@ -25,7 +25,7 @@ This is a solution to the [Huddle Landing Page with Curved Sections Challenge on
 
 ### Links
 
-- Solution URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-with-bem-css-grid-flexbox-js-uxi8exkMK](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-with-bem-css-grid-flexbox-js-uxi8exkMK)
 - Live Site URL: [https://rafo38kh.github.io/huddle-landing-page-with-curved-sections/](https://rafo38kh.github.io/huddle-landing-page-with-curved-sections/)
 
 ## My process
