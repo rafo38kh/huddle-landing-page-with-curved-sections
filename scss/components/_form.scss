@@ -36,8 +36,10 @@
   }
 
   &__error {
-    visibility: hidden;
     color: $color-lightRed;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    visibility: hidden;
     opacity: 0;
   }
 }

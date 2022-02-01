@@ -127,8 +127,10 @@ body {
   outline: 0.2rem solid #00cca7;
 }
 .footer__error {
-  visibility: hidden;
   color: #ff4242;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  visibility: hidden;
   opacity: 0;
 }
 
