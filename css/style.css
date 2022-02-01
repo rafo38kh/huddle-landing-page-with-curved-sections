@@ -259,7 +259,6 @@ body {
   }
 }
 .community__number {
-  position: relative;
   font-size: clamp(6rem, 7.5vw, 9.5rem);
   font-weight: 700;
 }
@@ -268,21 +267,8 @@ body {
     margin-bottom: 1rem;
   }
 }
-.community__number--communities::before {
-  content: url("../images/icon-communities.svg");
-  position: absolute;
-  top: -10rem;
-  left: 0rem;
-}
 .community__number--messages {
   font-size: clamp(5.3rem, 7vw, 9.5rem);
-}
-.community__number--messages::before {
-  content: url("../images/icon-messages.svg");
-  position: absolute;
-  top: -10rem;
-  left: 0rem;
-  width: 2rem;
 }
 .community__text {
   font-size: 1.4rem;
@@ -371,6 +357,11 @@ body {
     max-width: 33rem;
   }
 }
+@media (min-width: 810px) {
+  .footer__info {
+    grid-column: 1/2;
+  }
+}
 .footer__location {
   font-size: 1.4rem;
   margin: 2rem 0 4rem;
@@ -422,7 +413,12 @@ body {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 1rem;
+}
+@media (min-width: 1140px) {
+  .footer__list {
+    gap: 3rem;
+  }
 }
 .footer__link:hover svg {
   fill: #00c8fa;
@@ -431,10 +427,30 @@ body {
   fill: #f5faff;
   width: 3rem;
   height: 3rem;
-  transform: scale(1.4);
   transition: all 0.3s;
 }
-
+@media (min-width: 1140px) {
+  .footer__link svg {
+    transform: scale(1.4);
+  }
+}
+.footer__attribution {
+  width: 100%;
+  font-size: clamp(1rem, 1.1vw, 1.2rem);
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+.footer__attribution-link:link, .footer__attribution-link:visited {
+  text-transform: uppercase;
+  color: #f5faff;
+  text-decoration: underline;
+  font-weight: 400;
+}
+.footer__attribution-link:hover, .footer__attribution-link:active {
+  color: #00c8fa;
+  text-decoration: underline;
+}
 .container__grow {
   padding: 9rem 0;
 }
@@ -493,7 +509,7 @@ body {
 }
 .container__footer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(34rem, 1fr));
   grid-auto-flow: dense;
   gap: 5rem;
   padding: 5rem 3rem;
